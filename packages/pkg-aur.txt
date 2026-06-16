@@ -1,5 +1,5 @@
 clipse
 oh-my-posh
-wlogout
 yay
-# Exported on 2026-06-16_17:38
+zsh-theme-powerlevel10k-git
+# Exported on 2026-06-17_01:32

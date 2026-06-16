@@ -1,4 +1,5 @@
 7zip
+awww
 base
 base-devel
 bat
@@ -61,7 +62,6 @@ qt5-wayland
 qt6-wayland
 resvg
 rofi
-ruby
 sddm
 slurp
 smartmontools
@@ -91,4 +91,7 @@ xf86-video-nouveau
 yazi
 zoxide
 zram-generator
-# Exported on 2026-06-16_17:38
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+# Exported on 2026-06-17_01:32

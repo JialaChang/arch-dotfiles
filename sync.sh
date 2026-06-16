@@ -8,7 +8,10 @@ echo "==> Syncing configs..."
 rm -rf "$SCRIPT_DIR/hypr" && cp -r ~/.config/hypr "$SCRIPT_DIR/"
 rm -rf "$SCRIPT_DIR/kitty" && cp -r ~/.config/kitty "$SCRIPT_DIR/"
 rm -rf "$SCRIPT_DIR/nvim" && cp -r ~/.config/nvim "$SCRIPT_DIR/"
+rm -rf "$SCRIPT_DIR/waybar" && cp -r ~/.config/waybar "$SCRIPT_DIR/"
+
 cp ~/.bashrc "$SCRIPT_DIR/bashrc"
+cp ~/.zshrc "$SCRIPT_DIR/zshrc"
 
 # export packages
 echo "==> Exporting packages..."

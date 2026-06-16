@@ -29,3 +29,6 @@ alias cat='bat'
 
 # fastfetch
 alias ff='clear && fastfetch'
+
+# lazygit
+alias lgit='lazygit'

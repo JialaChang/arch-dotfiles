@@ -40,7 +40,9 @@ backup_all() {
   backup "$HOME/.config/hypr"
   backup "$HOME/.config/kitty"
   backup "$HOME/.config/nvim"
+  backup "$HOME/.config/waybar"
   backup "$HOME/.bashrc"
+  backup "$HOME/.zshrc"
 }
 
 # deploy files {src} {dest}
@@ -48,7 +50,9 @@ deploy_all() {
   deploy "./hypr" "$HOME/.config/hypr"
   deploy "./kitty" "$HOME/.config/kitty"
   deploy "./nvim" "$HOME/.config/nvim"
+  deploy "./waybar" "$HOME/.config/waybar"
   deploy "./bashrc" "$HOME/.bashrc"
+  deploy "./zshrc" "$HOME/.zshrc"
 }
 
 case "$1" in
