@@ -1,5 +1,9 @@
+claude-code
 clipse
+libcava
+matugen-bin
 oh-my-posh
+spotify
 yay
 zsh-theme-powerlevel10k-git
-# Exported on 2026-06-17_01:32
+# Exported on 2026-06-19_01:38

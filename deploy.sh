@@ -9,7 +9,8 @@ backup() {
 
   if [ -d "$target" ]; then
     echo "    -> Backing up dir $target..."
-    cp -r "$target" "${target}.backup/"
+    rm -rf "${target}.backup"
+    cp -r "$target" "${target}.backup"
   elif [ -f "$target" ]; then
     echo "    -> Backing up file $target..."
     cp "$target" "${target}.backup"

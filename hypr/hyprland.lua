@@ -48,7 +48,7 @@ local menu = "hyprlauncher"
 -- Or execute your favorite apps at launch like this:
 --
 hl.on("hyprland.start", function()
-	hl.exec_cmd(terminal)
+	hl.exec_cmd("kitty sh -c 'fastfetch; exec zsh'")
 	hl.exec_cmd("waybar")
 	hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
 	hl.exec_cmd("fcitx5 -d")
@@ -280,14 +280,12 @@ hl.bind(mainMod .. "+ B", hl.dsp.exec_cmd("firefox"))
 -- screenshot
 hl.bind(
 	"CTRL + P",
-	hl.dsp.exec_cmd(
-		'bash -c "F=~/Pictures/Screenshot/$(date +%Y-%m-%d_%H.%M.%S).png; grim \\"$F\\" && wl-copy < \\"$F\\""'
-	)
+	hl.dsp.exec_cmd("bash -c 'F=~/Pictures/Screenshot/$(date +%Y-%m-%d_%H.%M.%S).png; grim $F && wl-copy < $F'")
 )
 hl.bind(
 	"CTRL + SHIFT + S",
 	hl.dsp.exec_cmd(
-		'bash -c "F=~/Pictures/Screenshot/$(date +%Y-%m-%d_%H.%M.%S).png; grim -g \\"$(slurp)\\" \\"$F\\" && wl-copy < \\"$F\\""'
+		"bash -c 'F=~/Pictures/Screenshot/$(date +%Y-%m-%d_%H.%M.%S).png; grim -g \"$(slurp)\" $F && wl-copy < $F'"
 	)
 )
 -- toggle opacity

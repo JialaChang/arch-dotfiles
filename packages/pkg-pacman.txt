@@ -4,6 +4,7 @@ base
 base-devel
 bat
 btop
+cava
 dolphin
 dunst
 efibootmgr
@@ -52,6 +53,7 @@ nvidia-settings
 nvidia-utils
 os-prober
 otf-codenewroman-nerd
+pavucontrol
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -67,6 +69,7 @@ slurp
 smartmontools
 sof-firmware
 sudo
+swaync
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 ttf-liberation
@@ -94,4 +97,4 @@ zram-generator
 zsh
 zsh-autosuggestions
 zsh-syntax-highlighting
-# Exported on 2026-06-17_01:32
+# Exported on 2026-06-19_01:38

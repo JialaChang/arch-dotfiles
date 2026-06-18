@@ -29,22 +29,20 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_SPACE
 # setopt SHARE_HISTORY
 
-# nvim
+# Editor
 export EDITOR='nvim'
 export VISUAL='nvim'
-alias nv='neovide'
 
-# eza
+# Alias
+alias nv='neovide &disown'
+
 alias ls='eza --icons=always --group-directories-first'
 alias ll='eza -la --icons=always --group-directories-first --git'
 alias lt='eza --tree --level=2 --icons=always --group-directories-first'
 alias la='eza -a --icons=always --group-directories-first'
 
-# bat
 alias cat='bat'
-
-# fastfetch
 alias ff='clear && fastfetch'
-
-# lazygit
 alias lgit='lazygit'
+
+alias spotify='spotify &disown'
