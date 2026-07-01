@@ -50,6 +50,8 @@ local menu = "rofi -show drun -theme ~/.config/rofi/launchers/type-1/style-7.ras
 hl.on("hyprland.start", function()
 	hl.exec_cmd("kitty sh -c 'fastfetch; exec zsh'")
 	hl.exec_cmd("waybar")
+	hl.exec_cmd("hyprsunset")
+	hl.exec_cmd("blueman-applet")
 	hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
 	hl.exec_cmd("fcitx5 -d")
 	hl.exec_cmd("awww-daemon")
